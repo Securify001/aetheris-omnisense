@@ -1,0 +1,13 @@
+{
+  "name": "aetheris-agent-contract",
+  "version": "1.0.0",
+  "description": "Aetheris OmniSense Autonomous Agent Smart Contract on NEAR Protocol",
+  "main": "build/contract.wasm",
+  "scripts": {
+    "build": "near-sdk-js build src/contract.ts build/contract.wasm",
+    "test": "node test/contract.test.js"
+  },
+  "dependencies": {
+    "near-sdk-js": "^2.0.0"
+  }
+}
